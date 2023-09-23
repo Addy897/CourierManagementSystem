@@ -9,15 +9,25 @@ and Domestic Pickup & Delivery
 
 Benefits
 • Service quickness
+
 • Door to door service
+
 • keeping track of deliveries
+
 Features
+
 • Login
+
 • Add New User
+
 • Update Login Details
+
 • Login
+
 • Place
+
 • View All
+
 • Report
 • Cancel
 • Contact(Not Implemented Yet)
