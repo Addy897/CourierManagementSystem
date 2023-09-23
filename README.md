@@ -78,8 +78,15 @@ and Domestic Pickup & Delivery
  
 ### Configuring
  **You are required a email to send mail related to email verificaton, product status**
- - In verifyEmail
- ![image](https://github.com/Addy897/CourierManagementSystem/assets/145797684/e8a8ecd5-ca48-422a-9c31-c806b7e0c78b)
+ - Open Config.txt file present in directory.
+
+   ![Screenshot 2023-09-23 221931](https://github.com/Addy897/CourierManagementSystem/assets/145797684/89b3a60e-b7f6-4361-8a0b-9a7caa496a27)
+   
+  - Now enter your email(at current it only supports gmail) which you like to be used to send product status.
+  - In App_Password field enter your gmail's app password. To know more about app password refer to this [LINK](https://support.google.com/accounts/answer/185833?sjid=1718675146368982338)
+## Run
+To run use 
+`python app.py`
 
  
  
