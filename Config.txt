@@ -1,0 +1,3 @@
+[DEFAULT]
+Email= Your Email
+App_Password=Your Gmail App Password

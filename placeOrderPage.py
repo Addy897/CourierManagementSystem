@@ -1,3 +1,4 @@
+import configparser
 import datetime
 import smtplib
 from tkinter import *
@@ -9,6 +10,9 @@ from nav import Nav
 
 class PlaceOrder:
     def __init__(this, context):
+        this.configParser = configparser.ConfigParser()   
+        configFilePath = r'Config.txt'
+        this.configParser.read(configFilePath)
         this.ctx = context
         this.ctx.placeOrderPage = this.placeOrderPage
         
@@ -306,7 +310,7 @@ class PlaceOrder:
         canvas.update()
     def sendRefId(this,name,email,refId):
         try:
-            e,p="Project email here ","Your gmail app password here"
+            e,p=this.configParser['DEFAULT']['Email'],this.configParser['DEFAULT']['App_Password']
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.ehlo()
             server.starttls()

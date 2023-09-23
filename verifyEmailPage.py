@@ -3,8 +3,14 @@ import hashlib
 import random
 import smtplib
 import time
+import configparser
+
+
 class VerifyEmail:
     def __init__(this,context):
+        this.configParser = configparser.ConfigParser()   
+        configFilePath = r'Config.txt'
+        this.configParser.read(configFilePath)
         this.ctx=context
         this.ctx.addUser=this.addUser
         this.ctx.verifyEmailPage=this.verifyEmailPage
@@ -60,7 +66,7 @@ class VerifyEmail:
             
     def sendOtp(this,name,email,otp):
         try:
-            e,p="Project email here ","Your gmail app password here"
+            e,p=this.configParser['DEFAULT']['Email'],this.configParser['DEFAULT']['App_Password']
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.ehlo()
             server.starttls()
