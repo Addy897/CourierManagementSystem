@@ -9,30 +9,77 @@ and Domestic Pickup & Delivery
 
 ### Benefits
 
-• Service quickness
-
-• Door to door service
-
-• Keeping track of deliveries
+- Service quickness
+- Door to door service
+- Keeping track of deliveries
 
 ### Features
 
-• Login
+- Login
+  
+  ![image3](https://github.com/Addy897/CourierManagementSystem/assets/145797684/49f3b4bc-a028-4d58-aeb6-829fb1ff1666)
 
-• Add New User
+- Add New User
+  
+  ![image18](https://github.com/Addy897/CourierManagementSystem/assets/145797684/89a72f21-6354-4c45-ad9b-01b09304aca6)
+  
+- Update Login Details
+  
+- Place
+  
+  ![image2](https://github.com/Addy897/CourierManagementSystem/assets/145797684/ee35434e-4ea3-4358-804b-80807738e247)
 
-• Update Login Details
+- View All
+  
+  ![image12](https://github.com/Addy897/CourierManagementSystem/assets/145797684/d0cabbe5-aca2-4393-b0df-88e87e3c04a7)
 
-• Login
+- Report
 
-• Place
+  ![Screenshot](https://github.com/Addy897/CourierManagementSystem/assets/145797684/ee93b293-0210-4efa-bfd4-a6220bb021aa)
+  
+- Cancel
+  
+  ![Screenshot](https://github.com/Addy897/CourierManagementSystem/assets/145797684/8b06acf9-2e7d-4816-b236-18d887a677da)
+  
+- About
+  
+  ![image9](https://github.com/Addy897/CourierManagementSystem/assets/145797684/e7611ded-7a21-4a28-9999-12212cbd54f1)
 
-• View All
+- Contact(Not Implemented Yet)
 
-• Report
 
-• Cancel
+## Python Modules Used
+**tkinter**
 
-• Contact(Not Implemented Yet)
+• To Create GUI(Graphical User Interface) Window
 
-• About
+**sqlite3**
+
+• To Connect to the database in mysql
+
+**PIL**
+
+• To Resize Images and place them in gui
+
+**smtplib**
+
+• To send otp to user's email
+
+[**tkintermapview**](https://github.com/TomSchimansky/TkinterMapView)
+
+• To Show google maps in gui
+
+## Installation
+ Python3 is required.
+ 
+ For Installing use.
+ 
+ `pip install -r requirements.txt`
+ 
+### Configuring
+ **You are required a email to send mail related to email verificaton, product status**
+ - In verifyEmail
+ ![image](https://github.com/Addy897/CourierManagementSystem/assets/145797684/e8a8ecd5-ca48-422a-9c31-c806b7e0c78b)
+
+ 
+ 
