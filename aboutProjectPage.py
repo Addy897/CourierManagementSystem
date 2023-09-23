@@ -27,14 +27,14 @@ class AboutProject:
             font=("Vollkorn", 40 * -1)
         )
         canvas.create_text(
-            981.0,
+            990.0,
             148.0,
             text="C.M.S",
             fill="#03B114",
             anchor="nw",
             font=("Vollkorn", 40 * -1)
         )
-        text="India's leading logistics and supply chain arm. We started operations in 2009 as Flipkart’s in-house supply chain arm. Our consistent excellence in consumer experience, with reliable delivery and managing variability at scale, has made us the preferred partner for various businesses. You can utilise our end-to-end fulfilment services to keep your customers happy with on-time deliveries and hassle-free services."
+        text="The C.M.S(Courier Management System) is a business system that makes it easier to manage and route couriers. This helps business get more customer and be known to more people. C.M.S solution handles the end-to-end process starting from initiating a courier order, driver pickup, and delivery of a courier business. C.M.S covers all the controls and processes involved in national Courier Importation Services and Domestic Pickup & Delivery"
         t=canvas.create_text(
             853.0,
             197.0,
